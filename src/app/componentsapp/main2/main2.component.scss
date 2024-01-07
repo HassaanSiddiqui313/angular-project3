@@ -1,0 +1,34 @@
+#main{
+    display: flex;
+    gap: 250px;
+}
+#m1,#m2{
+    border: 1px solid rgba(0, 0, 0, 0.642);
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 50%;
+    #users{
+        display: block;
+        height: 30px;
+        width: 100%;
+        margin: 5px 0px;
+    }
+    #admins{
+        display: block;
+        height: 30px;
+        width: 100%;
+        margin: 5px 0px;
+    }
+    button{
+        display: block;
+        width: fit-content;
+        margin: auto;
+        padding: 0% 20px;
+        background: color #333;
+    }
+}
+span{
+    h4{
+        display: inline;
+    }
+}

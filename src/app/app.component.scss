@@ -1,0 +1,23 @@
+header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+span{
+    cursor: pointer;
+}
+.langselect{
+    border: 1px solid black;
+    padding: 3px 8px;
+    display: inline;
+    margin-right: 10px;
+}
+.active{
+    color: rgba(0, 0, 255, 0.572);
+}

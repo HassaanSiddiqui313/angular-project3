@@ -1,0 +1,16 @@
+<div id="main">
+    <div id="m1">
+        <input type="text" id="users" #user placeholder="{{'home.first'|translate}}">
+        <button (click)="f1(user)">
+            <h3>{{'home.second'|translate}}</h3>
+        </button>
+        <span>{{'home.third'|translate}}:<h4>{{usersno}}</h4></span>
+    </div>
+    <div id="m2">
+        <input type="text" id="admins" #admin placeholder="{{'home.fourth'|translate}}">
+        <button (click)="f2(admin)">
+            <h3>{{'home.second'|translate}}</h3>
+        </button>
+        <span>{{'home.fifth'|translate}}:<h4>{{adminsno}}</h4></span>
+    </div>
+</div>

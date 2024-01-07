@@ -1,0 +1,18 @@
+<!-- <div>{{ 'header.text' | translate}}</div>
+<div [innerHTML]="'header.text' | translate"></div> -->
+<header>
+  <h2 [innerHTML]="'header.first' | translate"></h2>
+  <h1 [innerHTML]="'header.second' | translate"></h1>
+  <h2><div class="langselect">
+    <span [class.active]="language=='en'" (click)="f1('en')">en</span>
+     | 
+    <span [class.active]="language=='du'" (click)="f1('du')">du</span>
+  </div>HS</h2>
+</header>
+<main>
+  <app-main1></app-main1>
+  <h2 [innerHTML]="'header.third' | translate"></h2>
+  <hr>
+  <app-main2></app-main2>
+</main>
+<router-outlet routerLink="next"></router-outlet>

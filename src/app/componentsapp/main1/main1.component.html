@@ -1,0 +1,16 @@
+<div id="main">
+<div id="m1">
+    <h1>{{'home.firstm1'|translate}}</h1>
+    <div id="users" *ngFor="let User of users">
+        <h3 #User>{{User.name}}:</h3>
+        <button (click)="f1(User)"  ><h3>{{'home.secondm1'|translate}}</h3></button>
+    </div>
+</div>
+<div id="m2">
+    <h1>Admin</h1>
+    <div id="admins" *ngFor="let Admin of admins">
+        <h3 #Admin>{{Admin.name}}:</h3>
+        <button (click)="f2(Admin)" ><h3>{{'home.secondm1'|translate}}</h3></button>
+    </div>
+</div>
+</div>

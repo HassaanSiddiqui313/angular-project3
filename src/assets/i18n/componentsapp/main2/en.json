@@ -1,0 +1,11 @@
+{
+    "home":{
+        "first":"Create User",
+        "second":"CREATE",
+        "third":"Total Users",
+        "fourth":"Create Admin",
+        "fifth":"Total Admins",
+        "firstm1":"User",
+        "secondm1":"Remove"
+    }
+}
